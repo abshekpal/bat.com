@@ -134,6 +134,12 @@ header .toggle {
     padding: 30px 0;
 }
 
+#home h5 {
+    color: #fff;
+    font-weight: 700;
+    
+}
+
 #home p {
     color:#fff;
     margin:auto;
@@ -312,7 +318,7 @@ header .toggle {
 
 /* ********** CONTACT ********** */
 #contact {
-    background: var(--bg);
+    background: var(--txt);
     padding: 50px 100px;
    
 }
@@ -376,20 +382,21 @@ header .toggle {
 
 #contact .content-1 p {
     line-height: 20px;
-    font-size:15px;
+    font-size:14px;
+    color:#fff;
 }
 
 #contact .content-1 .logo {
-    color: var(--txt);
+    color: var(--btn-txt);
     font-size: 23px;
     font-weight: 600;
-    margin-bottom:40px;
+    border-bottom: 1px solid #fff;
 }
 
 #contact .container .content-2 {
     display: flex;
     align-items: flex-end;
-    justify-content: center;
+    justify-content:center ;
     flex-direction: column;
 }
 
@@ -397,7 +404,7 @@ header .toggle {
     padding-left: 20px;
     cursor: pointer;
     transition: 0.5s;
-    color: var(--txt);
+    color: var(--btn-txt);
     font-size: 20px;
 }
 
@@ -407,8 +414,10 @@ header .toggle {
 }
 
 #contact .content-2 p {
-    font-size:15px;
+    font-size:14px;
     margin-top: 15px;
+    color: var(--btn-txt);
+
 }
 
 #contact input[type="text"]:focus, textarea:focus {
@@ -582,9 +591,8 @@ header .toggle {
     }
     
     #about .abtcontent{
-        display: flex;
-        align-items: center;
-        flex-direction: column;
+        display: block;
+        
         width:100%;
     }
 
@@ -594,10 +602,10 @@ header .toggle {
     #about .abtcontent .abtsec1 p{
         width: 100%;
     }
-    #about .abtcontent .abtsec2 img{
+    #about .abtcontent .abtsec2{
         width:100%;
         height:100%;
-        
+        margin:0;
     }
 
     #services .container1 .content1 h1 {
@@ -609,7 +617,7 @@ header .toggle {
         width:280px;
     }
     #services .container1 .content1, #services .container2 .content2 {
-        padding:0 40px;
+        padding:0 20px;
     }
 
 
